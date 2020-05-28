@@ -14,6 +14,7 @@ Put the Main Startup code for the Project Here.
 """
 def main():
     # Main Entrypoint of our Program
+    
     print ("starting server")
     database.mysqlConnect()
     print ("push to mysql")

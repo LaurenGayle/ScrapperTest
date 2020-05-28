@@ -47,6 +47,5 @@ def mysqlPush():
 
     mycursor.execute(sql, name, grade)
     databasesql.commit()
-
-print(mycursor.rowcount, "record inserted.")
+    print(mycursor.rowcount, "record inserted.")
 
