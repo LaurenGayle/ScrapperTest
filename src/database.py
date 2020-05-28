@@ -3,23 +3,30 @@ This Module is For Connecting My mysql server to python for dumping scraped data
 
 """
 import os
-import mysql.connector
+import yaml
 import logging
-  
-host= os.environ.get("MYSQL_HOST")
-user= os.environment.get("MYSQL_USER")
-passwd= os.environment.get("MYSQL_PASS")
-database=os.environment.get("MYSQL_DATA")
+import mysql.connector
+
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
+
+with open(r'assets/config.yml') as file:
+    config = yaml.load(file, Loader=yaml.FullLoader)
+    
+host= config['MYSQL_HOST']
+user= config['MYSQL_USER']
+passwd= config['MYSQL_PASS']
+database= config['MYSQL_DATA']
 
  
 databasesql = mysql.connector.connect(
-    host,
-    user,
-    passwd,
-    database
+   host= config['MYSQL_HOST'],
+    user= config['MYSQL_USER'],
+    passwd= config['MYSQL_PASS'],
+    database= config['MYSQL_DATA']
 )
 
 mycursor = databasesql.cursor()
+
 
 # Connects to Mysql Database
 def mysqlConnect():
@@ -30,12 +37,10 @@ def mysqlConnect():
         
         if databasesql.is_connected():
             logging.warning("Database is Connected!"+db_Info)
-        else:
-            logging.error("Database not connected!")
+   except:
+        logging.error("Database not connected!")
             
-    
 def mysqlPush():
-
     name = ("John")
     grade = ("10")
     sql = "INSERT INTO "+database+" ("+name+", "+grade+") VALUES (%s, %s)"

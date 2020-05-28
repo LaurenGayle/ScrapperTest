@@ -2,6 +2,7 @@
 This is the Main module
 starting Call Main Project functions here Ie Starting program
 """
+import database
 
 __author__ = "Nicholas Blackburn, Lauren Gayle"
 __Version__ = "1.0.0-Pre"
@@ -13,6 +14,11 @@ Put the Main Startup code for the Project Here.
 """
 def main():
     # Main Entrypoint of our Program
+    print ("starting server")
+    database.mysqlConnect()
+    print ("push to mysql")
+    database.mysqlPush()
+    
 
 
 
