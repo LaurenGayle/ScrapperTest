@@ -17,6 +17,10 @@ user= config['MYSQL_USER']
 passwd= config['MYSQL_PASS']
 database= config['MYSQL_DATA']
 
+table = config['MYSQL_TABLE']
+
+name ="nick"
+address = "1"
  
 databasesql = mysql.connector.connect(
    host= config['MYSQL_HOST'],
@@ -39,13 +43,26 @@ def mysqlConnect():
             logging.warning("Database is Connected!"+db_Info)
    except:
         logging.error("Database not connected!")
+    
+    #DataTable Create should only be ran once
+def mysqlcreate():
+    try:
+        logging.debug("creating users"+user+"in table"+table+" on Database"+database)
+        mycursor.execute("CREATE TABLE "+table+" (name VARCHAR(255), address VARCHAR(255))")
+        logging.debug("created succefully")
+    except:
+        logging.error("TABLE WAS NOT CREATED")
+            
             
 def mysqlPush():
-    name = ("John")
-    grade = ("10")
-    sql = "INSERT INTO "+database+" ("+name+", "+grade+") VALUES (%s, %s)"
-
-    mycursor.execute(sql, name, grade)
+    sql ="INSERT INTO "+table+" (name, address) VALUES (%s, %s) "
+    
+    values = (name,address)
+    
+    mycursor.execute(sql.format(table = table), values)
+    
     databasesql.commit()
+    
     print(mycursor.rowcount, "record inserted.")
+    logging.warn("INSERTED DATA "+values+"to table"+table)
 
