@@ -53,14 +53,12 @@ def mysqlcreate():
     except:
         logging.error("TABLE WAS NOT CREATED")
             
-            
+    # data is written to Mysql server via the Student Database Table 
 def mysqlPush():
     sql ="INSERT INTO "+table+" (name, address) VALUES (%s, %s) "
-    
     values = (name,address)
     
     mycursor.execute(sql.format(table = table), values)
-    
     databasesql.commit()
     
     print(mycursor.rowcount, "record inserted.")
