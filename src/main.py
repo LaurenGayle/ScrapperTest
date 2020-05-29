@@ -17,9 +17,15 @@ def main():
     
     print ("starting server")
     database.mysqlConnect()
-    print ("push to mysql")
-    database.mysqlPush()
     
+    a =input(" Would you like to auto update database? type yes if want to ")
+    
+    if(a == 'yes'):
+        print ("push to mysql")
+        database.mysqlPush()
+    else:
+        print("error quitting")
+        quit()
 
 
 

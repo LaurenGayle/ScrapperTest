@@ -44,6 +44,7 @@ def mysqlConnect():
    except:
         logging.error("Database not connected!")
     
+    
     #DataTable Create should only be ran once
 def mysqlcreate():
     try:
@@ -52,6 +53,7 @@ def mysqlcreate():
         logging.debug("created succefully")
     except:
         logging.error("TABLE WAS NOT CREATED")
+            
             
     # data is written to Mysql server via the Student Database Table 
 def mysqlPush():
@@ -62,5 +64,5 @@ def mysqlPush():
     databasesql.commit()
     
     print(mycursor.rowcount, "record inserted.")
-    logging.warn("INSERTED DATA "+values+"to table"+table)
-
+    logging.warn("INSERTED DATA ")
+    
