@@ -3,3 +3,6 @@ MYSQL_USER: "hacker"
 MYSQL_PASS: "mfx8nS003qusnG9V@"
 MYSQL_DATA: "hack"
 MYSQL_TABLE: "Students"
+
+API_URL: ""
+GRANT ALL ON database_name.* TO root@'localhost' IDENTIFIED BY 'Zoe@10#gong';

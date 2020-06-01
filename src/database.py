@@ -57,6 +57,7 @@ def mysqlcreate():
             
     # data is written to Mysql server via the Student Database Table 
 def mysqlPush():
+    mysqlConnect()
     sql ="INSERT INTO "+table+" (name, address) VALUES (%s, %s) "
     values = (name,address)
     
@@ -65,4 +66,15 @@ def mysqlPush():
     
     print(mycursor.rowcount, "record inserted.")
     logging.warn("INSERTED DATA ")
+    databasesql.close()
+    logging.warning("database connection closed")
+    
+def mysqlRead():
+    sql_select_Query = "select names from"+table+""
+    
+    cursor = databasesql.cursor()
+    cursor.execute(sql_select_Query)
+    records = cursor.fetchall()
+    
+    logging.debug(records)
     

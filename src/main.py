@@ -16,16 +16,21 @@ def main():
     # Main Entrypoint of our Program
     
     print ("starting server")
-    database.mysqlConnect()
+    
     
     a =input(" Would you like to auto update database? type yes if want to ")
+    b =input(" Would you like to pullfrom database? type pull if want to ")
     
     if(a == 'yes'):
         print ("push to mysql")
         database.mysqlPush()
     else:
-        print("error quitting")
-        quit()
+        if(b == 'yes'):
+            print("pulling data")
+            database.mysqlRead()
+        else:
+            print("error quitting")
+            main()
 
 
 
