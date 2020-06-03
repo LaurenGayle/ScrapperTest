@@ -6,6 +6,7 @@ import os
 import yaml
 import logging
 from pymongo import MongoClient
+from bson.objectid import ObjectId
 
 
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
@@ -35,8 +36,10 @@ def monoPush(tbadata):
     logging.debug("Adding data to db")
     data = collection.insert_one(tbadata).inserted_id
     data
-    logging.info("pushed data"+data+"to db")
-
+    logging.info("pushed data"+"to db")
+    
+    
 
 def getFRCyear():
-    
+   return
+

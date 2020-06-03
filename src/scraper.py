@@ -14,7 +14,7 @@ status = tba.status()
 def startRequest():
     try:
        database.logging.debug("Connecting to tba")  
-       print(tba.status())
+       #print(tba.status())
        #pushes tba status to mongo
        database.monoPush(status)
        

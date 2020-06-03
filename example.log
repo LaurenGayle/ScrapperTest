@@ -1,24 +1,17 @@
-DEBUG:root:Connecting to Mongodb!
-DEBUG:root:Connecting to Mongodb!
-DEBUG:root:Connecting to Mongodb!
-ERROR:root:INFO NOR FOUND
-DEBUG:root:Connecting to Mongodb!
-
-
-ERROR:root:INFO NOR FOUND
-DEBUG:root:Connecting to Mongodb!
-DEBUG:root:Connecting to Mongodb!
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 6
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 6
+DEBUG:root:Adding data to db
 CRITICAL:root:TBA OFFLINE
-DEBUG:root:Connecting to tba
-DEBUG:root:Connecting to tba
-DEBUG:root:Connecting to tba
-DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:No cache entry available
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
-DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
-DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
-DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
@@ -27,24 +20,12 @@ DEBUG:cachecontrol.controller:Updating cache with response from "https://www.the
 DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 4
+DEBUG:cachecontrol.controller:Current age based on date: 3
 DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 4
+DEBUG:cachecontrol.controller:61 > 3
 DEBUG:root:Adding data to db
-DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:No cache entry available
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
-DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
-DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
-DEBUG:cachecontrol.controller:Caching due to etag
-DEBUG:root:Connecting to tba
-DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 2
-DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
-DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 2
-DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
@@ -66,11 +47,12 @@ DEBUG:cachecontrol.controller:Updating cache with response from "https://www.the
 DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 2
+DEBUG:cachecontrol.controller:Current age based on date: 6
 DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 2
+DEBUG:cachecontrol.controller:61 > 6
 DEBUG:root:Adding data to db
+INFO:root:pushed datato db
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
@@ -84,6 +66,21 @@ DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
 DEBUG:cachecontrol.controller:61 > 2
 DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 1
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 1
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
 CRITICAL:root:TBA OFFLINE
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
@@ -93,11 +90,26 @@ DEBUG:cachecontrol.controller:Updating cache with response from "https://www.the
 DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 2
+DEBUG:cachecontrol.controller:Current age based on date: 4
 DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 2
+DEBUG:cachecontrol.controller:61 > 4
 DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 1
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 1
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
 CRITICAL:root:TBA OFFLINE
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
@@ -107,11 +119,13 @@ DEBUG:cachecontrol.controller:Updating cache with response from "https://www.the
 DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 2
+DEBUG:cachecontrol.controller:Current age based on date: 6
 DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 2
+DEBUG:cachecontrol.controller:61 > 6
 DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+CRITICAL:root:TBA OFFLINE
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
 DEBUG:cachecontrol.controller:No cache entry available
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
@@ -120,9 +134,98 @@ DEBUG:cachecontrol.controller:Updating cache with response from "https://www.the
 DEBUG:cachecontrol.controller:Caching due to etag
 DEBUG:root:Connecting to tba
 DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
-DEBUG:cachecontrol.controller:Current age based on date: 2
+DEBUG:cachecontrol.controller:Current age based on date: 1
 DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
 DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
-DEBUG:cachecontrol.controller:61 > 2
+DEBUG:cachecontrol.controller:61 > 1
 DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 1
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 1
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 3
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 3
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:root:None
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 3
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 3
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:root:None
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:Current age based on date: 3
+DEBUG:cachecontrol.controller:Freshness lifetime from max-age: 61
+DEBUG:cachecontrol.controller:The response is "fresh", returning cached response
+DEBUG:cachecontrol.controller:61 > 3
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:root:None
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:root:None
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
 CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+INFO:root:pushed datato db
+DEBUG:root:None
