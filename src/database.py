@@ -7,13 +7,16 @@ import yaml
 import logging
 from pymongo import MongoClient
 
+
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
 with open(r'assets/config.yml') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
     
 client = MongoClient(config["MONGO_URL"])
-db= client["MONGO_DATABASE"]
+db = client['tba']
+collection = db['Data']
+
 
 
 
@@ -26,5 +29,14 @@ def mongoConnect():
         logging.info()
     except:
         logging.critical("CANNOT CONNECT TO MONGODB")
+        
+# THis will push data in json format from tba to Mongo    
+def monoPush(tbadata):
+    logging.debug("Adding data to db")
+    data = collection.insert_one(tbadata).inserted_id
+    data
+    logging.info("pushed data"+data+"to db")
 
 
+def getFRCyear():
+    

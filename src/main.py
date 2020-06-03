@@ -3,6 +3,7 @@ This is the Main module
 starting Call Main Project functions here Ie Starting program
 """
 import database
+import scraper
 
 __author__ = "Nicholas Blackburn, Lauren Gayle"
 __Version__ = "1.0.0-Pre"
@@ -20,14 +21,15 @@ def main():
     
     a =input(" Would you like to auto update database? type yes if want to ")
     #b =input(" Would you like to pullfrom database? type pull if want to ")
-    
-    if(a == 'yes'):
-        print ("push to mysql")
-        database.mongoConnect()
-
+    if(a == 'test'):
+        scraper.startRequest()
     else:
-        print("error quitting")
-        main()
+        if(a == 'yes'):
+            print ("push to mysql")
+            database.mongoConnect()
+        else:
+            print("error quitting")
+            main()
 
 
 

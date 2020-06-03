@@ -4,10 +4,19 @@ This module is for handling the actual scraping of the json data. this data will
 
 import requests
 import database
-from requests.exceptions import HTTPError
+import tbapy as tba
 
+
+tba = tba.TBA(database.config["API_KEY"])
+status = tba.status()
 
 # Uses Config.yml to get relevent info like Json Api url to pull data 
 def startRequest():
     try:
-        response = requests.get(database.config["API_URL"])
+       database.logging.debug("Connecting to tba")  
+       print(tba.status())
+       #pushes tba status to mongo
+       database.monoPush(status)
+       
+    except:
+        database.logging.critical("TBA OFFLINE")

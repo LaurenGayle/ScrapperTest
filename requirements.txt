@@ -8,5 +8,7 @@ Flask-Bootstrap4==4.0.2
 pandas==1.0.3
 pytest==5.4.2
 beautifulsoup4==4.9.1
-mysql-connector==
+pymongodb
 ymal==5.3.1
+tbapy
+
