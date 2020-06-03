@@ -1,8 +1,3 @@
-MYSQL_HOST: "138.68.242.103"
-MYSQL_USER: "hacker"
-MYSQL_PASS: "mfx8nS003qusnG9V@"
-MYSQL_DATA: "hack"
-MYSQL_TABLE: "Students"
-
+MONGO_URL: "mongodb://50.116.37.86:27017/"
+MONGO_DATABASE: "tba"
 API_URL: ""
-GRANT ALL ON database_name.* TO root@'localhost' IDENTIFIED BY 'Zoe@10#gong';

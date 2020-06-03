@@ -19,18 +19,15 @@ def main():
     
     
     a =input(" Would you like to auto update database? type yes if want to ")
-    b =input(" Would you like to pullfrom database? type pull if want to ")
+    #b =input(" Would you like to pullfrom database? type pull if want to ")
     
     if(a == 'yes'):
         print ("push to mysql")
-        database.mysqlPush()
+        database.mongoConnect()
+
     else:
-        if(b == 'yes'):
-            print("pulling data")
-            database.mysqlRead()
-        else:
-            print("error quitting")
-            main()
+        print("error quitting")
+        main()
 
 
 

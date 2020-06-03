@@ -1,87 +1,10 @@
+DEBUG:root:Connecting to Mongodb!
+DEBUG:root:Connecting to Mongodb!
+DEBUG:root:Connecting to Mongodb!
+ERROR:root:INFO NOR FOUND
+DEBUG:root:Connecting to Mongodb!
 
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-DEBUG:root:created succefully
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-DEBUG:root:creating usershackerin tableStudents on Databasehack
-ERROR:root:TABLE WAS NOT CREATED
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:John,10
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:John,grade 10
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:John,grade10
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:('Peter', 10)
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:("'nick'", "'Hime1'")
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:('nick', '1')
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:Database is Connected!5.7.30-0ubuntu0.18.04.1
-WARNING:root:INSERTED DATA 
-WARNING:root:INSERTED DATA 
-WARNING:root:database connection closed
-WARNING:root:INSERTED DATA 
-WARNING:root:database connection closed
+
+ERROR:root:INFO NOR FOUND
+DEBUG:root:Connecting to Mongodb!
+DEBUG:root:Connecting to Mongodb!
