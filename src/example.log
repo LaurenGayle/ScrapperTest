@@ -1,0 +1,43 @@
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db

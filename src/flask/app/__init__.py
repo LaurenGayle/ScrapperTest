@@ -11,6 +11,10 @@ from importlib import import_module
 from logging import basicConfig, DEBUG, getLogger, StreamHandler
 from os import path
 
+
+
+
+
 db = SQLAlchemy()
 login_manager = LoginManager()
 
@@ -70,15 +74,15 @@ def apply_themes(app):
                 if path.isfile(path.join(app.static_folder, theme_file)):
                     values['filename'] = theme_file
         return url_for(endpoint, **values)
-
+    
 def create_app(config, selenium=False):
+
     app = Flask(__name__, static_folder='base/static')
     app.config.from_object(config)
-    if selenium:
-        app.config['LOGIN_DISABLED'] = True
     register_extensions(app)
     register_blueprints(app)
     configure_database(app)
     configure_logs(app)
     apply_themes(app)
+
     return app

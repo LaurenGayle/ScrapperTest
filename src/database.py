@@ -11,12 +11,12 @@ from bson.objectid import ObjectId
 
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
-with open(r'assets/config.yml') as file:
+with open(r'config.yml') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
     
-client = MongoClient(config["MONGO_URL"])
-db = client['tba']
-collection = db['Data']
+client = MongoClient("mongodb://50.116.37.86:27017/")
+db = client['Data']
+collection = db['test']
 
 
 
@@ -32,10 +32,10 @@ def mongoConnect():
 # THis will push data in json format from tba to Mongo    
 def monoPush(tbadata):
     logging.debug("Adding data to db")
-    _id =  ObjectId.data
-    data = collection.insert_one(tbadata).inserted_id
     
-    print(data.sort({"_id" : -1}).limit(1))
+    data = collection.insert_one(tbadata).inserted_id
+    data
+   
    
     
 

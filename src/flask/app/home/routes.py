@@ -10,10 +10,20 @@ from flask_login import login_required, current_user
 from app import login_manager
 from jinja2 import TemplateNotFound
 
+import pymongo
+import run
+import tbadata
 
+
+data = run.mongo['Data']
+col = data['test']
+
+current_year = tbadata.getCurrentyear()
+
+#IN SERTED DATA TO FLASK
 @blueprint.route('/index')
 def index():
-    return render_template('index2.html')
+    return render_template('index2.html',year=current_year)
 
 @blueprint.route('/<template>')
 def route_template(template):

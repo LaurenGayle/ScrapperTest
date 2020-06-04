@@ -1,0 +1,1191 @@
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:09] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:10] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/tbadata.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:53:48] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/flask/app/home/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:19] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/tbadata.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:37] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:38] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:39] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:40] "GET /page-widgets HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:40] "GET /dist/img/photo1.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:54:41] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/flask/app/home/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:12] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/morris.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:14] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:16] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:48] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:48] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:49] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:49] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:54] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:55] "GET /static/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:55] "GET /static/assets/ionicons/fonts/ionicons.ttf?v=2.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:55] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:55:59] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/flask/app/home/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/flask/app/home/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:04] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:05] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:25] "GET /page-widgets HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:25] "GET /dist/img/photo1.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:26] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:46] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:46] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:52] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:53] "GET /page-widgets HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:53] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:53] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:53] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:53] "GET /dist/img/photo1.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 13:57:54] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:42] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:43] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:47] "GET /index2.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:47] "GET /static/assets/css/morris.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:47] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /index2.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:01:49] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:01] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:18] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:39] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:40] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:53] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:54] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:54] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:02:54] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/morris.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:05] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:06] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:06] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:10] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:11] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/morris.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:26] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:28] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /index2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:39] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:43] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:03:46] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:05:43] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/morris.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:32] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:06:55] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:28] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/adminlte.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/raphael.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/morris.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery.sparkline.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/morris.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/daterangepicker.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/css/jquery-jvectormap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery.knob.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/moment.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/daterangepicker.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/adminlte.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/fastclick.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/pages/dashboard2.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/chart.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/js/demo.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user3-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user4-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user1-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user7-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user5-128x128.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user6-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/user8-128x128.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2020 14:07:51] "GET /static/assets/img/default-50x50.gif HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/home/nicholas/Documents/ScrapperTest/src/tbadata.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+INFO:root:got year 
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-454-034
