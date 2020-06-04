@@ -229,3 +229,131 @@ DEBUG:root:Connecting to tba
 DEBUG:root:Adding data to db
 INFO:root:pushed datato db
 DEBUG:root:None
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to Mongodb!
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to Mongodb!
+INFO:root:{'version': '4.2.7', 'gitVersion': '51d9fe12b5d19720e72dcd7db0f2f17dd9a19212', 'modules': [], 'allocator': 'tcmalloc', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [4, 2, 7, 0], 'openssl': {'running': 'OpenSSL 1.1.0l  10 Sep 2019', 'compiled': 'OpenSSL 1.1.0l  10 Sep 2019'}, 'buildEnvironment': {'distmod': 'debian92', 'distarch': 'x86_64', 'cc': '/opt/mongodbtoolchain/v3/bin/gcc: gcc (GCC) 8.2.0', 'ccflags': '-fno-omit-frame-pointer -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -Werror -O2 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-const-variable -Wno-unused-but-set-variable -Wno-missing-braces -fstack-protector-strong -fno-builtin-memcmp', 'cxx': '/opt/mongodbtoolchain/v3/bin/g++: g++ (GCC) 8.2.0', 'cxxflags': '-Woverloaded-virtual -Wno-maybe-uninitialized -fsized-deallocation -std=c++17', 'linkflags': '-pthread -Wl,-z,now -rdynamic -Wl,--fatal-warnings -fstack-protector-strong -fuse-ld=gold -Wl,--build-id -Wl,--hash-style=gnu -Wl,-z,noexecstack -Wl,--warn-execstack -Wl,-z,relro', 'target_arch': 'x86_64', 'target_os': 'linux'}, 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['biggie', 'devnull', 'ephemeralForTest', 'wiredTiger'], 'ok': 1.0}
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to Mongodb!
+INFO:root:{'version': '4.2.7', 'gitVersion': '51d9fe12b5d19720e72dcd7db0f2f17dd9a19212', 'modules': [], 'allocator': 'tcmalloc', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [4, 2, 7, 0], 'openssl': {'running': 'OpenSSL 1.1.0l  10 Sep 2019', 'compiled': 'OpenSSL 1.1.0l  10 Sep 2019'}, 'buildEnvironment': {'distmod': 'debian92', 'distarch': 'x86_64', 'cc': '/opt/mongodbtoolchain/v3/bin/gcc: gcc (GCC) 8.2.0', 'ccflags': '-fno-omit-frame-pointer -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -Werror -O2 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-const-variable -Wno-unused-but-set-variable -Wno-missing-braces -fstack-protector-strong -fno-builtin-memcmp', 'cxx': '/opt/mongodbtoolchain/v3/bin/g++: g++ (GCC) 8.2.0', 'cxxflags': '-Woverloaded-virtual -Wno-maybe-uninitialized -fsized-deallocation -std=c++17', 'linkflags': '-pthread -Wl,-z,now -rdynamic -Wl,--fatal-warnings -fstack-protector-strong -fuse-ld=gold -Wl,--build-id -Wl,--hash-style=gnu -Wl,-z,noexecstack -Wl,--warn-execstack -Wl,-z,relro', 'target_arch': 'x86_64', 'target_os': 'linux'}, 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['biggie', 'devnull', 'ephemeralForTest', 'wiredTiger'], 'ok': 1.0}
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE
+DEBUG:cachecontrol.controller:Looking up "https://www.thebluealliance.com/api/v3/status" in the cache
+DEBUG:cachecontrol.controller:No cache entry available
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/status HTTP/1.1" 200 None
+DEBUG:cachecontrol.controller:Updating cache with response from "https://www.thebluealliance.com/api/v3/status"
+DEBUG:cachecontrol.controller:Caching due to etag
+DEBUG:root:Connecting to tba
+DEBUG:root:Adding data to db
+CRITICAL:root:TBA OFFLINE

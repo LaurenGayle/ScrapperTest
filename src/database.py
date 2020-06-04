@@ -24,20 +24,19 @@ collection = db['Data']
 # This will test connection to database server and log the stages of connection to database 
 def mongoConnect():
     logging.debug("Connecting to Mongodb!")
-    logging.info()
     try:
         logging.info(client.server_info())
-        logging.info()
     except:
         logging.critical("CANNOT CONNECT TO MONGODB")
         
 # THis will push data in json format from tba to Mongo    
 def monoPush(tbadata):
     logging.debug("Adding data to db")
+    _id =  ObjectId.data
     data = collection.insert_one(tbadata).inserted_id
-    data
-    logging.info("pushed data"+"to db")
     
+    print(data.sort({"_id" : -1}).limit(1))
+   
     
 
 def getFRCyear():
