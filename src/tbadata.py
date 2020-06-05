@@ -17,6 +17,7 @@ with open(r'src/config.yml') as file:
     
 tba = tba.TBA(config["API_KEY"])
 status = tba.status()
+
 json_status = json.dumps(status)
 deserial_json =json.loads(json_status)
 

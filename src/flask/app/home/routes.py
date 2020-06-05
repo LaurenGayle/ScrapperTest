@@ -13,6 +13,11 @@ from jinja2 import TemplateNotFound
 import pymongo
 import run
 import tbadata
+import json
+import datetime
+import random
+import time
+from httplib2 import Response
 
 
 data = run.mongo['Data']
@@ -23,7 +28,7 @@ current_year = tbadata.getCurrentyear()
 #IN SERTED DATA TO FLASK
 @blueprint.route('/index')
 def index():
-    return render_template('index2.html',year=current_year)
+    return render_template('index2.html',year=current_year,random = chart_data)
 
 @blueprint.route('/<template>')
 def route_template(template):
